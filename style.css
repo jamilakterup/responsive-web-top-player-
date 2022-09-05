@@ -1,0 +1,148 @@
+/* Google-Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Root-element */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgba(197, 197, 197, 0.221);
+}
+
+/* ---player-info and blog-content and common content start------- */
+
+.top-players,
+.top-blogs {
+    margin: 0 30px;
+}
+
+.player-info,
+.blog-content {
+    margin-left: 20px;
+}
+
+/* ---player-info and blog-content and common content end------- */
+
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid red;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    margin-left: 40px;
+}
+
+ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    width: 35px;
+}
+
+.icon {
+    color: white;
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+
+/* --------players-section------- */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+.title {
+    margin: 40px 0;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 60px;
+    height: 60px;
+}
+
+hr {
+    height: 2px;
+    background-color: gray;
+    margin: 40px 36px;
+}
+
+/* --------blog-content------- */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog img {
+    height: 150px;
+    width: 200px;
+}
+
+.latest-course {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 40px 30px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.course-content img {
+    height: 100px;
+    width: 200px;
+}
